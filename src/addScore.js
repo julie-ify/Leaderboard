@@ -3,14 +3,14 @@ const addScore = async (name, score, url) => {
     method: 'POST',
     body: JSON.stringify({
       user: name,
-      score: score,
+      score,
     }),
     headers: {
       'Content-type': 'application/json; charset=UTF-8',
     },
-  })
+  });
 
   return response.json();
-}
+};
 
 export default addScore;

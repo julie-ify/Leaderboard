@@ -1,5 +1,5 @@
 const createGame = async () => {
-  const baseUrl ='https://us-central1-js-capstone-backend.cloudfunctions.net/api/';
+  const baseUrl = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/';
   const endpoint = 'games/';
   const url = `${baseUrl}${endpoint}`;
   const response = await fetch(url, {
