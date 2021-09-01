@@ -5,13 +5,19 @@
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
   line-height: 1.1;
   font-weight: 500;
+  font-family: cursive;
+  color: #777;
 }
 
 main {
-  width: 80%;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.section {
+  width: 100%;
   margin: 4rem auto 4rem;
   display: flex;
   flex-direction: column;
@@ -19,15 +25,19 @@ main {
   row-gap: 4rem;
 }
 
-h1.bg-heading {
-  font-size: 40px;
+.bg-heading {
+  font-size: 20px;
   font-weight: 700;
-  width: 90%;
+  width: 80%;
   padding: 2rem 0 0;
-  margin: 0 auto;
+  text-align: left;
 }
 
-h2.sm-heading {
+.color {
+  color: rgb(8, 8, 194);
+}
+
+.sm-heading {
   font-weight: 600;
 }
 
@@ -39,14 +49,22 @@ h2.sm-heading {
 }
 
 button[type='button'] {
-  padding: 5px;
+  padding: 10px;
+  font-size: 20px;
+  background-color: rgb(8, 8, 194);
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  color: #fff;
+  font-family: cursive;
+  cursor: pointer;
 }
 
 ul.lists {
   list-style: none;
   display: none;
   flex-direction: column;
-  border: 3px solid #444;
+  border: 3px solid #666;
   padding: 0;
 }
 
@@ -75,25 +93,37 @@ ul.lists {
 input[type='text'] {
   height: 30px;
   padding: 5px;
+  border: 2px solid #777;
+}
+
+input[type='text']:hover {
+  border: 2px solid rgb(8, 8, 194);
 }
 
 button[type='submit'] {
-  width: 30%;
   align-self: flex-end;
-  padding: 5px;
+  padding: 10px;
+  background-color: rgb(8, 8, 194);
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-size: 20px;
+  font-family: cursive;
+  cursor: pointer;
 }
 
 @media (min-width: 600px) {
-  main {
+  .section {
     flex-direction: row;
-    column-gap: 4rem;
+    column-gap: 6rem;
   }
 
   #form {
-    margin-top: 4rem;
+    margin-top: 3rem;
   }
 
-  h1.bg-heading {
+  .bg-heading {
     padding-left: 2rem;
   }
 }
