@@ -3,5 +3,10 @@ import getData from './getData.js';
 import createGame from './createGame.js'
 
 window.addEventListener('DOMContentLoaded', async () => {
-  const {result} = await createGame()
+  const data = await createGame()
+  let gameId = data.result
+  gameId = gameId.substring(14, 34)
+  // console.log(gameId)
+
+  
 })
