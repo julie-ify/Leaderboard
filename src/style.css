@@ -44,7 +44,7 @@ button[type='button'] {
 
 ul.lists {
   list-style: none;
-  display: flex;
+  display: none;
   flex-direction: column;
   border: 3px solid #444;
   padding: 0;
