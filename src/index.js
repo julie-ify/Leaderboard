@@ -6,7 +6,5 @@ window.addEventListener('DOMContentLoaded', async () => {
   const data = await createGame()
   let gameId = data.result
   gameId = gameId.substring(14, 34)
-  // console.log(gameId)
 
-  
 })
