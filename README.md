@@ -4,10 +4,12 @@
 
 This a Simple game which displays the scores gotten from playing the leaderboard game. 
 
+## [live demo](https://julie-ify.github.io/Leaderboard/dist/)
+
 Below you can see how this website look on mobile and desktop respectively:
 
-![screenshot](./src/images/leaderboard-m.png)
-![screenshot](./src/images/leaderboard-d.png)
+![screenshot](./src/images/leaderimage-1.png)
+![screenshot](./src/images/leaderimage-2.png)
 
 
 ## Setup
