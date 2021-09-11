@@ -19,7 +19,7 @@
   "bugs": {
     "url": "https://github.com/julie-ify/Leaderboard/issues"
   },
-  "homepage": "https://github.com/julie-ify/Leaderboard/dist",
+  "homepage": "https://github.com/julie-ify/Leaderboard/#readme",
   "devDependencies": {
     "babel-eslint": "^10.1.0",
     "css-loader": "^6.2.0",
